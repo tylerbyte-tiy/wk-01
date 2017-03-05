@@ -1,16 +1,65 @@
+html, body *{
+  box-sizing: border-box;
+  /*border: solid 1px black;*/
+  background-color: lightblue;
+  float:none;
+}
+
 h1{
   font-family: cursive;
-  border: solid;
+  border: solid solid black 10px;
+  text-align: center;
+}
+h2 {
   text-align: center;
 }
 
-float-left {
+.float-left {
+  width: 33%;
   float: left;
-  clear: both;
-}
-a {
-  border: solid;
-}
+  /*border-left: solid black 10px;*/
+  margin-left: 13%;
+  }
+  .float-right {
+    width: 33%;
+    float: left;
+    /*border-left: solid black 10px;*/
+    margin-right: 13%;
+    }
+
+
 # logo {
-  <a href="banana-split.jpg"
+  <a href="index.html">
 }
+
+.banana-split {
+  width: 200px;
+  height: 50px;
+}
+img{
+  height:100px;
+  width: 100px;
+}
+/*tbody tr:nth-child(odd) {
+   background-color: #ccc;
+}*/
+/*a :hover {
+  ;
+}*/
+.dancing-ice-cream{
+  width: 100px;
+  height: 100px;
+}
+
+.highlight:hover{
+    background: rgba(255, 230, 0, 0.5);
+    padding: 3px 5px;
+    margin: -3px -5px;
+    line-height: 1.7;
+    border-radius: 3px;
+    display:inline-block;
+    list-style: none;
+}
+/*.align-center{
+  align-items: center;
+}*/
