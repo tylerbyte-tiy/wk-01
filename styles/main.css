@@ -68,3 +68,10 @@ td:visited{
 .highlight {
   background: yellow;
 }
+#footer {
+   position: fixed;;
+   bottom:0;
+   width:100%;
+   height:20px;   /* Height of the footer */
+   margin-left: 1000px;
+}
