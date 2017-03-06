@@ -1,10 +1,6 @@
 html, body *{
-  box-sizing: border-box;
-  /*border: solid 1px black;*/
   background-color: lightblue;
-  float:none;
 }
-
 h1{
   font-size: xx-large;
   font-family: cursive;
@@ -14,18 +10,15 @@ h1{
 h2 {
   text-align: center;
 }
-
 .float-left {
   width: 33%;
   float: left;
-  /*border-left: solid black 10px;*/
-  margin-left: 3%;
+  margin-left: 7%;
   }
 .float-right {
   width: 45%;
-  float: left;
-  /*border-left: solid black 10px;*/
-  margin-right: 7%;
+  float: right;
+  margin-right: 15%;
   }
 .float-logo {
 width: 100px;
@@ -39,15 +32,6 @@ height: 200px;
 overflow: hidden;
 border-radius: none !important;
 }
-
-/*# logo {
-  <a href="index.html">
-}*/
-
-/*.banana-split {
-  width: 200px;
-  height: 50px;
-}*/
 img{
   height:100px;
   width: 100px;
@@ -56,31 +40,8 @@ img{
 .img-circle {
     border-radius: 50%;
 }
-/*tbody tr:nth-child(odd) {
-   background-color: #ccc;
-}*/
-/*a :hover {
-  ;
-}*/
-/*.dancing-ice-cream{
-  width: 100px;
-  height: 100px;
-}*/
-
-/*.highlight:hover{
-    background: yellow;
-    padding: 3px 5px;
-    margin: -3px -5px;
-    line-height: 1.7;
-    border-radius: 3px;
-    display:inline-block;
-    list-style: none;
-}*/
-/*.align-center{
-  align-items: center;
-}*/
 table {
-  border: solid black 5px;
+  border: solid black 1px;
 }
 th {
   text-decoration: underline;;
@@ -88,8 +49,19 @@ th {
 tr {
   border: solid black 5px;
 }
+
+a:hover,
+  a.selected {
+  color: lightyellow;
+  }
+a:visited{
+  background: yellow;
+}
 td:hover {
   background: yellow; }
 td:visited{
+  background: yellow;
+}
+.highlight {
   background: yellow;
 }
