@@ -6,6 +6,7 @@ html, body *{
 }
 
 h1{
+  font-size: xx-large;
   font-family: cursive;
   border: solid solid black 10px;
   text-align: center;
@@ -18,27 +19,42 @@ h2 {
   width: 33%;
   float: left;
   /*border-left: solid black 10px;*/
-  margin-left: 13%;
+  margin-left: 3%;
   }
-  .float-right {
-    width: 33%;
-    float: left;
-    /*border-left: solid black 10px;*/
-    margin-right: 13%;
-    }
-
-
-# logo {
-  <a href="index.html">
+.float-right {
+  width: 45%;
+  float: left;
+  /*border-left: solid black 10px;*/
+  margin-right: 7%;
+  }
+.float-logo {
+width: 100px;
+height: 100px;
+overflow: hidden;
+border: solid 1px white;
+}
+.float-banner {
+width: 1350px;
+height: 200px;
+overflow: hidden;
+border-radius: none !important;
 }
 
-.banana-split {
+/*# logo {
+  <a href="index.html">
+}*/
+
+/*.banana-split {
   width: 200px;
   height: 50px;
-}
+}*/
 img{
   height:100px;
   width: 100px;
+  border-radius: 25%;
+}
+.img-circle {
+    border-radius: 50%;
 }
 /*tbody tr:nth-child(odd) {
    background-color: #ccc;
@@ -46,20 +62,34 @@ img{
 /*a :hover {
   ;
 }*/
-.dancing-ice-cream{
+/*.dancing-ice-cream{
   width: 100px;
   height: 100px;
-}
+}*/
 
-.highlight:hover{
-    background: rgba(255, 230, 0, 0.5);
+/*.highlight:hover{
+    background: yellow;
     padding: 3px 5px;
     margin: -3px -5px;
     line-height: 1.7;
     border-radius: 3px;
     display:inline-block;
     list-style: none;
-}
+}*/
 /*.align-center{
   align-items: center;
 }*/
+table {
+  border: solid black 5px;
+}
+th {
+  text-decoration: underline;;
+}
+tr {
+  border: solid black 5px;
+}
+td:hover {
+  background: yellow; }
+td:visited{
+  background: yellow;
+}
